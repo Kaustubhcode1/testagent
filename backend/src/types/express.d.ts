@@ -1,1 +1,0 @@
-import { User } from './auth.types';  declare global {   namespace Express {     interface Request {       correlationId?: string;     }   } }  declare module 'express-session' {   interface SessionData {     user?: User;   } }
