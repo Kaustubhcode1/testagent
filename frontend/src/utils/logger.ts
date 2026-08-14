@@ -1,3 +1,4 @@
+
 interface LogContext {
   correlationId?: string;
   [key: string]: any;
