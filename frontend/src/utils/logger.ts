@@ -1,1 +1,0 @@
-interface LogContext { context: string }
